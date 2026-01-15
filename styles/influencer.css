@@ -8,6 +8,10 @@
 
 /* Shared style */
 
+.bg-color{
+    color: #AAAAAA;
+}
+
 .display-flex{
     display: flex;
 }
@@ -36,6 +40,8 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .menu .icon, #menu-list{
@@ -49,4 +55,50 @@
 #menu-list li a{
     text-decoration: none;
     color: black;
+}
+
+/* Hero section related style */
+#hero{
+    /* border: 1px solid red; */
+    max-width: 1140px;
+    height: auto;
+    gap: 130px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position:720px 0px, bottom right;
+    background-size: contain;
+}
+
+#hero .hero-info{
+    /* border: 1px solid aqua; */
+    max-width: 580px;
+}
+
+.hero-info .hero-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.hero-info .hero-desc{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.hero-info .hero-btn{
+    font-weight: 700;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+}
+
+#hero .img-container img{
+    width: 100%;
 }
