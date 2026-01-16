@@ -128,6 +128,8 @@
 }
 
 .popular-collection{
+    max-width: 1140px;
+    flex-direction: column;
     margin: 100px auto;
     /* border: 1px solid tomato; */
     /* justify-content: center; */
@@ -186,4 +188,15 @@
 
 .rating .icon{
     color: #FB8200;
+}
+
+.collection-btn{
+    color: #E02C6D;
+    align-self: flex-end;
+    margin-top: 50px;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    
 }
