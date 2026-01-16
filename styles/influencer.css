@@ -120,6 +120,8 @@ body{
     width: 100%;
 }
 
+/* Companies */
+
 .companies{
     display: grid;
     justify-items: center;
@@ -131,6 +133,8 @@ body{
     box-shadow: 0px -2px 10px rgb(215, 214, 214),
                 0px 2px 10px rgb(198, 197, 197);
 }
+
+/* Popular collection */
 
 .popular-collection{
     max-width: 1140px;
@@ -206,6 +210,8 @@ body{
     
 }
 
+/* Feature section */
+
 .features{
     max-width: 1200px;
     justify-content: space-between;
@@ -248,6 +254,7 @@ body{
     padding: 8px 10px;
 }
 
+/* Footer section */
 .footer{
     background-color: #0A0826;
     text-align: center;
@@ -275,4 +282,42 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+/* For mobile device */
+
+@media screen and (max-width: 576px) {
+    .navbar, .menu, #menu-list, #hero{
+        flex-direction: column;
+
+    }
+
+    .navbar .title{
+        text-align: center;
+    }
+
+    .menu #menu-list{
+        gap: 10px;
+    }
+
+    .icon{
+        justify-items: center;
+        align-items: center;
+    }
+
+    .navbar .menu .icon #search{
+       display: none !important;
+    }
+
+    #hero{
+        flex-direction: column-reverse;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        background-position: top center;
+        max-width: 350px;
+    }
+
+    .hero-info{
+        text-align: center;
+    }
 }
