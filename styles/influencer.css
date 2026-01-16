@@ -331,4 +331,15 @@ body{
     .collection-btn{
         margin-right: 15px;
     }
+
+    .features{
+        flex-direction: column-reverse;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .feature-desc{
+        text-align: center;
+    }
+
 }
